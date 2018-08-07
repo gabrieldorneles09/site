@@ -3,24 +3,39 @@
     margin-top: 0.8%;
 }
 
-.titulo{
-    font-size: 2em;
+.fonte-padrao{
     font-family: 'Share Tech', sans-serif;
     color: white;
 }
 
+.background-img{
+    margin: 0;
+    background-image: linear-gradient(#6A6BDF, #9B6CDC);
+    height: 500px;
+}
+
+.titulo{
+    font-size: 2em;
+    margin-top: 2px;
+}
+
 .posicao-titulo{
     position: relative;
-    padding-top: 9px; 
     text-align: center;
     text-transform: uppercase;
     width: 60%;
+    top: 5em;
     left: 20%;
     right: 20%;
+}
+
+.caixa-titulo{
     background-color: rgba(156, 108, 220, 0.36);
     border: 4px solid rgba(16, 9, 94, 0.46);
     box-sizing: border-box;
     border-radius: 23px;
+    height: 70px;
+    padding: 10px;
 }
 
 .subtitulo{
@@ -31,10 +46,11 @@
     position: relative;
     text-align: center;
     width: 60%;
+    top: 6.5em;
     left: 20%;
     right: 20%;
 }
 
-*{
-    border: 1px solid black;
+{
+    border: 1px solid rgba(156, 108, 220, 0.36);
 }
